@@ -80,8 +80,8 @@ h1 {
   color: var(--text-color);
   align-items: center;
   justify-content: center;
-  padding-top: -10rem;
-  padding-left: 1rem;
+  padding-top: -8rem;
+  padding-left: 1rem ;
 }
 
 .main-text span {
@@ -98,7 +98,7 @@ h2 {
   font-size: 60px;
   color: var(--text-color);
   letter-spacing: 6px;
-
+  /* mix-blend-mode: difference; */
 }
 
 /* Media Queries */
@@ -107,7 +107,6 @@ h2 {
 
 @media (min-width: 768px) {
 }
-
 @media (min-width: 1200px) {
   .home {
     min-height: 100vh;
@@ -200,18 +199,19 @@ h2 {
   }
 
   .row .about-img{
+    margin-top: -11.8rem ;
+    margin-left: 25rem;
+    width: 100%;
      transition: transform 0.9s ease;
-     width: 50%;
-     margin-left: 48rem;
-     margin-top: -12rem;
-     
   }
-
-
+  .row .mainmore{
+    margin: -8rem 25rem;
+    width: 100%;
+     transition: transform 0.9s ease;
+  }
 
   .row .imgg img {
     transform: rotate(-10deg);
-    
   }
   .row .imgg img:hover {
     transform:  rotateZ(-1deg) ;
@@ -228,28 +228,18 @@ h2 {
   .row .right {
     display: flex;
     gap: -5rem;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .row .about-img img {
     height: 17rem;
     transition: transform 0.9s ease;
-    margin-top: -1rem;
+    
+    margin-top: -5rem;
     border-radius: 10px;
     vertical-align: 3px;
-  }
-
-  .row .yyy {
-    margin-top: -17rem;
-  }
-  .row .y {
-    margin-top: -16rem;
-  }
-
-  .row .yy{
-    margin-top: -16rem;
   }
 
   .main-text h2 {
@@ -280,6 +270,14 @@ h2 {
     border-radius: 30px;
     height: 20rem;
   }
+  .container-2 {
+    background-image: url(./assets/img/home/noise.png);
+    background-size: cover;
+    margin:6rem;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 15rem;
+  }
 
   .row .left {
     padding-left: 20px;
@@ -298,14 +296,10 @@ h2 {
   }
 
   .row .ghja img {
-    min-height: 16rem;
-    margin-top: -4.5rem; 
+    min-height: 10rem;
+    margin-top: -4rem; 
   }
-  .row .ghja img:hover {
-    height: 17rem;
-    transition: transform 0.1 ease;
-    
-  }
+
 
   /* Main more styles */
   .oval-1 {
@@ -331,6 +325,11 @@ h2 {
   .main-text h2 {
     color: var(--text-color);
     letter-spacing: normal;
+  }
+
+  .mainmore{
+    margin-top: 20rem;
+    display: none;
   }
 
   .right {
