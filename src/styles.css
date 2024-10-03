@@ -523,6 +523,13 @@ h2 {
     display: flex;
     justify-content: space-around;
     gap: -50rem;
+   
+  }
+  footer .holder{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    height: 6rem;
   }
   footer .up-icon {
     display: flex;

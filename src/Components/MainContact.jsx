@@ -42,10 +42,7 @@ function MainContact() {
         <a target="blank" href="https://www.tiktok.com/@___chacks___">
           <i class="bx bxl-tiktok bx-fade-up"></i>
         </a>
-        <a
-          target="blank"
-          href="https://www.youtube.com/channel/UCp9bFleBzAjOhXbpBTs_dnA"
-        >
+        <a target="blank" href="https://www.youtube.com/@tendaichakawuya">
           <i class="bx bxl-youtube bx-fade-down"></i>
         </a>
       </div>
