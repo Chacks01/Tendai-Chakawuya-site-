@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar{
+    background-image: url(./assets/img/home/noise.png);
+}
+.firstpic{
+    background-image: url(./assets/img/home/DyTech.png);
+    /* background-repeat: no-repeat; */
+    
+    
+}
+
+.Portfolio-page{
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+
+
