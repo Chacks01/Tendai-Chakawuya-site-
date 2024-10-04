@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: black;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+:root {
+  --text-color:white;
+  --hover-color: orange ;
+  --bg-color:black;
+  --second-bg-color:rgb(62, 59, 59);
+  --big-font:2.5rem;
+  --normal-font: 2rem;
+  --neon-box-shadow: 0 0 .9rem pink;
+  --h2-font:3rem;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--second-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--hover-color);
+  border-radius: 5rem;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+}
+
+span {
+  font-size: 2rem;
+}
+
+section {
+  margin-bottom: 300px;
+}
+
+h1 {
+  font-size: var(--big-font);
+  font-weight: 700;
+}
+
+.main-text {
+  width: 100%;
+  color: var(--text-color);
+  align-items: center;
+  justify-content: center;
+}
+.main-text span {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  unicode-bidi: isolate;
+  cursor: pointer;
+}
+.main-text h2 {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--text-color);
+  letter-spacing: 6px;
+  mix-blend-mode: normal;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 45px;
+}
+.btn-box .btn {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background-color: var(--hover-color);
+  color: var(--bg-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.6s;
+  box-shadow: var(red);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: var(--neon-box-shadow);
+}
+.btn-box a:hover {
+  color: var(--hover-color);
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Frontend/img/home/iman-back.webp);
+    background-size: cover;
+  }
+  .home .header {
+    display: flex;
+    height: 70%;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .home .header .navlist {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+  }
+  .home .header .navlist a {
+    color: white;
+    mix-blend-mode: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .about .oval {
+    margin-bottom: 20px;
+  }
+  .about .oval .container {
+    background-image: url(/Frontend/img/home/noise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 20rem;
+  }
+  .about .oval .container .row .left {
+    padding-left: 20px;
+  }
+  .about .oval .container .row .left .main-text h2 {
+    color: var(--text-color);
+  }
+  .companies .text h1 {
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .companies .oval {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .companies .oval .container {
+    background-image: url(/Frontend/img/home/noise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 20rem;
+  }
+  .companies .oval .container .row .left {
+    padding-left: 20px;
+  }
+  .companies .oval .container .row .left .main-text h2 {
+    color: var(--text-color);
+  }
+  .companies .oval .container .row .right {
+    padding: 100px 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .companies .oval .container .row .right img {
+    height: 5rem;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer p {
+    color: var(--hover-color);
+    align-items: center;
+  }
+  footer a {
+    color: var(--text-color);
+    font-size: 30px;
+    background-color: var(--hover-color);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */

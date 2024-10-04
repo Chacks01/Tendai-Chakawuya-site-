@@ -7,7 +7,7 @@ const MainCompanies = () => {
         <h1>COMPANIES</h1>
       </div>
       <div className="oval">
-        <div className="container-1">
+        <div className="container-2">
           <div className="row">
             <div className="col-md-8 left">
               <div className="main-text">
@@ -29,7 +29,7 @@ const MainCompanies = () => {
         </div>
       </div>
       <div className="oval">
-        <div className="container-1">
+        <div className="container-2">
           <div className="row">
             <div className="col-md-8 left">
               <div className="main-text">
@@ -49,7 +49,7 @@ const MainCompanies = () => {
         </div>
       </div>
       <div className="oval">
-        <div className="container-1">
+        <div className="container-2">
           <div className="row">
             <div className="col-md-8 left">
               <div className="main-text">
@@ -69,11 +69,31 @@ const MainCompanies = () => {
         </div>
       </div>
       <div className="oval">
-        <div className="container-1">
+        <div className="container-2">
           <div className="row">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>Infinity Customes</h2>
+                <span>
+                  My entrepreneurial journey began with a spark of inspiration
+                  from Iman Gadzhi, and since then, I've been driven to create a
+                  legacy. I set out on a challenge to build a series companies,
+                  each one a stepping stone to greater success.
+                </span>
+              </div>
+            </div>
+            <div className="col-md-4 right">
+              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="oval">
+        <div className="container-2">
+          <div className="row">
+            <div className="col-md-8 left">
+              <div className="main-text">
+                <h2>Car Abusers Club</h2>
                 <span>
                   My entrepreneurial journey began with a spark of inspiration
                   from Iman Gadzhi, and since then, I've been driven to create a
