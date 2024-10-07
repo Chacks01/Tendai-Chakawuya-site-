@@ -1,5 +1,5 @@
-import React from 'react'
-// import ContactBG from '../assets/img//home/banner 2.jpg'
+import React from "react";
+// import ContactBG from '../assets/img//home/'
 // const Background = (props) =>{
 // const styles = {
 //   backroundimage: 'ContactBG'
@@ -53,4 +53,4 @@ function MainContact() {
   );
 }
 
-export default MainContact
+export default MainContact;

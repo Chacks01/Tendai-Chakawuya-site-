@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const MainHeader = () => {
   return (
-    <nav class="banner" id="home">
-      <ul class="navlist">
+    <nav className="banner" id="home">
+      <ul className="navlist hidden">
         <li>
           <a href="#about">ABOUT </a>
         </li>
@@ -14,7 +14,7 @@ const MainHeader = () => {
         <li>
           <a href="#">
             
-            <span>TENDAI CHACKS </span>
+            <span className="">TENDAI CHACKS </span>
           </a>
         </li>
         <li>
