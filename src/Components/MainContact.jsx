@@ -7,7 +7,7 @@ import React from "react";
 
 function MainContact() {
   return (
-    <section className="contact" id="contact">
+    <section className="contact container" id="contact">
       <div className="contactSkills">
         <div className="contact-info">
           <div className="main-text">

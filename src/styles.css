@@ -203,10 +203,6 @@ section {
 }
 
 .banner {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  grid-row-gap: 0rem;
   /* filter: none; */
   -webkit-text-fill-color: inherit;
   background-image: linear-gradient(
@@ -216,14 +212,12 @@ section {
       rgba(0, 0, 0, 0) 41%
     ),
     url(../src/assets/img/home/banner\ 2.jpg);
-  background-position: 0 0, 60% 50%;
-  background-size: auto, cover;
-  background-clip: border-box;
-  align-items: center;
-  padding-top: 8vh;
-  padding-bottom: 5%;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  padding: 3rem;
+  max-width: 100vw;
 }
 
 h1 {

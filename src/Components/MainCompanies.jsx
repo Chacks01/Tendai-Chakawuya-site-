@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainCompanies = () => {
   return (
-    <section id="companies" className="companies">
+    <section id="companies" className="companies container">
       <div className="text">
         <h1>COMPANIES</h1>
       </div>
