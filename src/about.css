@@ -1,0 +1,236 @@
+/* General styles */
+body {
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* About Section */
+.about {
+  margin-top: 5rem;
+  padding: 0 1.5rem;
+}
+
+/* Responsive row styles */
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+}
+
+/* About images section */
+.about-img {
+  margin: 0 auto;
+  width: 100%;
+  transition: transform 0.9s ease;
+}
+
+@media (min-width: 1024px) {
+  .about-img {
+    margin-left: 5rem;
+    margin-top: -7rem;
+    width: 50%;
+  }
+}
+
+.mainmore {
+  margin: 2rem auto;
+  width: 100%;
+  transition: transform 0.9s ease;
+}
+
+@media (min-width: 1024px) {
+  .mainmore {
+    margin: -8rem auto;
+    width: 60%;
+  }
+}
+
+/* Image transformations */
+.imgg img {
+  transform: rotate(-10deg);
+}
+
+.imgg img:hover {
+  transform: rotateZ(-1deg);
+  transition: transform 0.5s ease;
+}
+
+.imggg img {
+  transform: rotate(10deg);
+  transition: transform 0.9s ease;
+}
+
+.imggg img:hover {
+  transform: rotateZ(-5deg);
+  transition: transform 0.9s ease;
+}
+
+/* About Image Hover Effect */
+.about-img img {
+  height: auto;
+  max-height: 100%;
+  transition: transform 0.9s ease;
+  margin-top: -3rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .about-img img {
+    height: 17rem;
+    margin-top: -5rem;
+  }
+}
+
+/* Text Styles */
+.main-text h2 {
+  color: var(--text-color);
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-text h2 {
+    font-size: 3rem;
+  }
+}
+
+.row .left,
+.row .right {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .row .left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Oval Styles */
+.oval {
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.oval-1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Container Styles */
+.container-1,
+.container-2 {
+  background-image: url(./assets/img/home/noise.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.container-1 {
+  margin: 2rem auto;
+  height: 12rem;
+}
+
+@media (min-width: 1024px) {
+  .container-1 {
+    height: 20rem;
+  }
+}
+
+.container-2 {
+  margin: 2rem auto;
+  height: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .container-2 {
+    height: 15rem;
+  }
+}
+
+/* Image Gallery */
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 1024px) {
+  .image-gallery img {
+    max-width: 400px;
+  }
+}
+
+/* Scroll Gallery */
+.scroll-gallery {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Responsive Text Alignment */
+@media (min-width: 768px) {
+  .right {
+    padding: 50px 5rem;
+  }
+}
+
+/* Text Alignment for small screens */
+.right {
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mainmore Styles */
+.mainmore {
+  margin-top: 5rem;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .mainmore {
+    display: none;
+  }
+}
+
+.right img {
+  height: 5rem;
+}
+
+/* Responsive media queries */
+@media (max-width: 576px) {
+  .about {
+    margin-top: 3rem;
+  }
+
+  .row .right {
+    padding: 1rem;
+  }
+
+  .main-text h2 {
+    font-size: 1.5rem;
+  }
+}

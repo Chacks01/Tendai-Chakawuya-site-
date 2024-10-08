@@ -3,6 +3,7 @@ import Portfoliopage from './Pages/Portfoliopage'
 import Homepage from "./Pages/Homepage";
 import About from "./Components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './about.css'
 
 const App = () => {
   return (
