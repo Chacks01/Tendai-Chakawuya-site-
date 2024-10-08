@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const MainHeader = () => {
   return (
     <nav className="banner container-fluid" id="home">
-      <ul className="navlist hidden md:block md:flex items-center container justify-between">
+      <ul className="navlist container">
         <li>
           <a href="#about">ABOUT </a>
         </li>
@@ -12,7 +12,7 @@ const MainHeader = () => {
         </li>
         <li>
           <a href="#">
-            <span className="">TENDAI CHACKS </span>
+            <span className="text-3xl">TENDAI CHACKS </span>
           </a>
         </li>
         <li>

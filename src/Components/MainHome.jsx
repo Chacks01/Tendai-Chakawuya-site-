@@ -1,13 +1,13 @@
-import React from "react";
+
 
 
 
 const MainHome = () => {
   return (
     <>
-      <div className="main-text  bg-red-500 flex items-center container justify-center w-full h-screen">
-        <h2>TENDAI CHACKS</h2>
-      </div>
+      <section className="main-text container">
+        <h1 className="home-text">TENDAI CHACKS</h1>
+      </section>
     </>
   );
 };
