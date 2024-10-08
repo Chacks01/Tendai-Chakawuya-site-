@@ -1,6 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @media (max-width: 768px) {
   .about {
     margin-top: 5rem; 
+    background-color: red;
+    h2{
+      font-size: 3rem;
+    }
+  }
+  .headings{
+    font-size: 4rem;
   }
 
   .row .left,
@@ -39,7 +50,18 @@
     margin: 3rem; /* Adjust margins for smaller screens */
   }
 }
-@media (min-width: 1200px) {
+
+.main-text{
+  
+}
+
+.about {
+    margin-top: 5rem; 
+    h2{
+      font-size: 3rem;
+    }
+  }
+/* @media (min-width: 1200px) {
    .about {
     margin-top: 10rem;
   }
@@ -153,4 +175,4 @@
     min-height: 10rem;
     margin-top: -4rem; 
   }
-}
+} */
