@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .about {
+    margin-top: 5rem; 
+    background-color: red;
+    h2{
+      font-size: 3rem;
+    }
+  }
+  .headings{
+    font-size: 4rem;
+  }
+
+  .row .left,
+  .row .right {
+    padding-left: 10px; 
+    padding-right: 10px; 
+    flex-direction: column; /* Stack elements vertically */
+    text-align: left; /* Center text */
+  }
+
+  .row .about-img {
+    margin-top: -5rem; /* Adjusted margin */
+    margin-left: 0; /* Center image */
+    width: auto; /* Allow width to adjust */
+  }
+
+  .row .mainmore {
+    margin: -4rem auto; /* Center mainmore */
+    width: auto; /* Allow width to adjust */
+  }
+
+  .row .imgg img,
+  .row .imggg img {
+    height: auto; /* Adjust height for responsiveness */
+    transform: rotate(0deg); /* Reset rotation for smaller screens */
+  }
+
+  .companies .text h1 {
+    font-size: 1.5rem; /* Smaller font size for headings */
+    margin-bottom: 50px; /* Reduced margin */
+  }
+
+  .container-1,
+  .container-2 {
+    height: auto; /* Allow height to adjust based on content */
+    margin: 3rem; /* Adjust margins for smaller screens */
+  }
+}
+
+.main-text{
+  background: #101010;
+}
+
+.about {
+    margin-top: 5rem; 
+    h2{
+      font-size: 3rem;
+    }
+  }
+/* @media (min-width: 1200px) {
+   .about {
+    margin-top: 10rem;
+  }
+  .about .oval {
+    margin-bottom: 20px;
+  }
+
+  .row .left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .row .about-img{
+    margin-top: -11.8rem ;
+    margin-left: 25rem;
+    width: 100%;
+     transition: transform 0.9s ease;
+  }
+  .row .mainmore{
+    margin: -8rem 25rem;
+    width: 100%;
+     transition: transform 0.9s ease;
+  }
+
+  .row .imgg img {
+    transform: rotate(-10deg);
+  }
+  .row .imgg img:hover {
+    transform:  rotateZ(-1deg) ;
+     transition: transform 0.5s ease;
+  }
+  .row .imggg img{
+    transform: rotate(10deg); 
+    transition: transform 0.9s ease;
+  }
+  .row .imggg img:hover{
+    transform:  rotateZ(-5deg) ;
+    transition: transform 0.9s ease;
+  }
+  .row .right {
+    display: flex;
+    gap: -5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .row .about-img img {
+    height: 17rem;
+    transition: transform 0.9s ease;
+    
+    margin-top: -5rem;
+    border-radius: 10px;
+    vertical-align: 3px;
+  }
+
+  .main-text h2 {
+    color: var(--text-color);
+  }
+
+  .oval {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .companies .text h1 {
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .oval {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .container-1 {
+    background-image: url(./assets/img/home/noise.png);
+    background-size: cover;
+    margin:6rem;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 20rem;
+  }
+  .container-2 {
+    background-image: url(./assets/img/home/noise.png);
+    background-size: cover;
+    margin:6rem;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 15rem;
+  }
+
+  .row .left {
+    padding-left: 20px;
+  }
+
+  .main-text h2 {
+    color: var(--text-color);
+  }
+
+  .row .right {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .row .ghja img {
+    min-height: 10rem;
+    margin-top: -4rem; 
+  }
+} */
