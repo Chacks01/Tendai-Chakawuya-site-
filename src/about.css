@@ -5,7 +5,6 @@
 @media (max-width: 768px) {
   .about {
     margin-top: 5rem; 
-    background-color: red;
     h2{
       font-size: 3rem;
     }
@@ -21,11 +20,15 @@
     flex-direction: column; /* Stack elements vertically */
     text-align: left; /* Center text */
   }
-
+.row{
+  background: ;
+}
   .row .about-img {
     margin-top: -5rem; /* Adjusted margin */
     margin-left: 0; /* Center image */
     width: auto; /* Allow width to adjust */
+    height: 20vh;
+
   }
 
   .row .mainmore {
@@ -51,15 +54,20 @@
   }
 }
 
-.main-text{
-  
-}
+/* .left{
+  background: #101010;
+} */
 
 .about {
     margin-top: 5rem; 
     h2{
       font-size: 3rem;
     }
+  }
+
+  img{
+    border-radius: 10px;
+    height: 20vh;
   }
 /* @media (min-width: 1200px) {
    .about {
