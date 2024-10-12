@@ -5,8 +5,8 @@ const MainAbout = () => {
   return (
     <section id="about" className="about-one container">
       <div className="row">
-        <div className="col-md-8">
-          <div className="main-text">
+        <div className="main-text">
+          <div className="col-md-8">
             <h2 className="heading">About me</h2>
             <p>
               I am Tendai Chakawuya, a passionate entrepreneur, software
