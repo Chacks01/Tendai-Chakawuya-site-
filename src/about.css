@@ -84,6 +84,24 @@ table {
   flex-direction: column;
   gap: 40px;
 }
+
+/* COMPANIES STYLES */
+.company-text{
+  text-align: center;
+  font-size: 3rem;
+}
+.main-text{
+  h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+.companies{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -118,6 +136,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 50%;
   }
 }
+
+/* COMPANY STYLES */
+.main-text{
+  h2{
+    text-align: left;
+  }
+}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -127,6 +153,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 35%;
   }
 }
+
+/* COMPANY STYLES */
+.imgs{
+  width: 60%;
+}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

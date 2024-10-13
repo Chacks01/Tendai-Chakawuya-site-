@@ -3,12 +3,12 @@ import React from 'react';
 const MainCompanies = () => {
   return (
     <section id="companies" className="companies container">
-      <div className="text">
+      <div className="company-text">
         <h1>COMPANIES</h1>
       </div>
       <div className="oval">
         <div className="container-2">
-          <div className="row">
+          <div className="row main-texts">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>Greater Heights</h2>
@@ -22,15 +22,15 @@ const MainCompanies = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-4 right ghja ">
-              <img src="/src/assets/img/home/GHJA logo.png" alt="img"></img>
+            <div className="col-md-4">
+              <img src="/src/assets/img/home/GHJA logo.png" alt="img" className='imgs'></img>
             </div>
           </div>
         </div>
       </div>
       <div className="oval">
         <div className="container-2">
-          <div className="row">
+          <div className="row main-texts">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>EduTech</h2>
@@ -50,7 +50,7 @@ const MainCompanies = () => {
       </div>
       <div className="oval">
         <div className="container-2">
-          <div className="row">
+          <div className="row main-texts">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>Trandon</h2>
@@ -70,7 +70,7 @@ const MainCompanies = () => {
       </div>
       <div className="oval">
         <div className="container-2">
-          <div className="row">
+          <div className="row main-texts">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>Infinity Customes</h2>
@@ -90,7 +90,7 @@ const MainCompanies = () => {
       </div>
       <div className="oval">
         <div className="container-2">
-          <div className="row">
+          <div className="row main-texts">
             <div className="col-md-8 left">
               <div className="main-text">
                 <h2>Car Abusers Club</h2>
@@ -103,7 +103,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right">
-              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+              <img src="/src/assets/img/home/DyTech.png" alt="img" className='imgs'></img>
             </div>
           </div>
         </div>
