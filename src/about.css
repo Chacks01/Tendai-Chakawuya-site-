@@ -53,14 +53,37 @@ table {
  font-size: 3rem;
  text-align: center;
  }
- .main-text{
+ .main-texts{
   background-image: url(./assets/img/home/noise.png);
   border-radius: 20px;
   padding: 20px;
  }
+.about-one{
+  padding: 20px;
+}
 
-
-
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  img{
+    border-radius: 10px;
+    width: 40%;
+  }
+  .imgs{
+    transform: rotate(-15deg);
+  }
+  .imgs-1{
+    transform: rotate(15deg);
+  }
+}
+.about-one{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -85,12 +108,25 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
+.flexs{
+  display: flex;
 
+  .heading{
+    text-align: left;
+  }
+  img{
+    width: 50%;
+  }
+}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+.flexs{
+  img{
+    width: 35%;
+  }
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
