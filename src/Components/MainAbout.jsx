@@ -1,5 +1,5 @@
-import Imaage from "../assets/img/home/about-pic-2.jpg";
-import Image from "../assets/img/home/about-pic.jpg";
+import Imaage from "/img/home/about-pic-2.jpg";
+import Image from "/img/home/about-pic.jpg";
 
 
 const MainAbout = () => {

@@ -54,7 +54,7 @@ table {
  text-align: center;
  }
  .main-texts{
-  background-image: url(./assets/img/home/noise.png);
+  background-image: url(/img/home/noise.png);
   border-radius: 20px;
   padding: 20px;
  }
