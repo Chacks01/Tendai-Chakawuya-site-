@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 
 const MainAbout = () => {
@@ -49,10 +49,10 @@ const MainAbout = () => {
                   venture, a software development company, to my latest project,
                   a car customizing commpany, each company has taught me
                   valuable lessons and fueled my passion for innovation. Along
-                  the way, I've faced challenges, embraced failures, and
-                  celebrated triumphs. But most importantly, I've remained true
+                  the way, I have faced challenges, embraced failures, and
+                  celebrated triumphs. But most importantly, I have remained true
                   to my vision of creating a business empire that makes a
-                  lasting impact. As I continue on this road to 21, I'm excited
+                  lasting impact. As I continue on this road to 21, I am excited
                   to explore new industries, push boundaries, and inspire others
                   to join me on this entrepreneurial journey.
                 </span>
