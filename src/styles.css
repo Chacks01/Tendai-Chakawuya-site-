@@ -293,10 +293,15 @@ h2 {
     justify-content: center;
     text-align: center;
     
+    
   }
 
   .row .ghja img {
     min-height: 10rem;
+    margin-top: -4rem; 
+  }
+  .row .trandon img {
+    min-height: 13rem;
     margin-top: -4rem; 
   }
 
@@ -370,13 +375,13 @@ h2 {
 
   /* image track styles ........................................................................................................*/
   #track .image-track {
-    margin-top: 7rem;
+    margin-top: 0rem;
     display: flex;
     gap: 4vmin;
     left: 50%;
     top: 50%;
     transform: translate(50%, 0);
-    background-color: white;
+    
   }
 
   #track .image-track img {
@@ -472,6 +477,10 @@ h2 {
     border: none;
     background-color: var(--text-color);
   }
+  form .btn:hover {
+   
+    background-color: var(--text-color);
+  }
 
   .links {
     display: flex;
@@ -523,6 +532,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     gap: -50rem;
+    margin-top: -3rem;
    
   }
   footer .holder{

@@ -42,7 +42,7 @@ const MainCompanies = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-4 right">
+            <div className="col-md-4 right ghja">
               <img src="../assets/img/home/DyTech.png" alt="img"></img>
             </div>
           </div>
@@ -62,8 +62,8 @@ const MainCompanies = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-4 right">
-              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+            <div className="col-md-4 right trandon">
+              <img src="/src/assets/img/home/Trandon Logo.png" alt="img"></img>
             </div>
           </div>
         </div>
