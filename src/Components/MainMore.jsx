@@ -21,10 +21,10 @@ const MainMore = () => {
             </div>
             <div className="col-md-4 right about-img mainmore">
               <div className="imgg">
-                <img src="/src/assets/img/home/journey-pic.jpg" alt="img" />
+                <img src="/img/home/journey-pic.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/about-pic-2.jpg" alt="img" />
+                <img src="/img/home/about-pic-2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -47,10 +47,10 @@ const MainMore = () => {
             </div>
             <div className="col-md-4 right about-img mainmore">
               <div className="imgg">
-                <img src="/src/assets/img/home/journey-pic.jpg" alt="img" />
+                <img src="/img/home/journey-pic.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/about-pic-2.jpg" alt="img" />
+                <img src="/img/home/about-pic-2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -73,10 +73,10 @@ const MainMore = () => {
             </div>
             <div className="col-md-4 right about-img mainmore">
               <div className="imgg">
-                <img src="/src/assets/img/home/journey-pic.jpg" alt="img" />
+                <img src="/img/home/journey-pic.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/about-pic-2.jpg" alt="img" />
+                <img src="/img/home/about-pic-2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -99,10 +99,10 @@ const MainMore = () => {
             </div>
             <div className="col-md-4 right about-img mainmore">
               <div className="imgg">
-                <img src="/src/assets/img/home/zebra.jpg" alt="img" />
+                <img src="/img/home/zebra.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/skulls.jpg" alt="img" />
+                <img src="/img/home/skulls.jpg" alt="img" />
               </div>
             </div>
           </div>

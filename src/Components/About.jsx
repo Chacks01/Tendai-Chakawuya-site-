@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -6,7 +6,7 @@ function About() {
       <Link to='/about'>About</Link>
       <div className="about-img">
         <img
-          src="/Frontend/img/0d795ae1a97258f586ac131643e7297b-removebg-preview.png"
+          src="/img/0d795ae1a97258f586ac131643e7297b-removebg-preview.png"
           alt=""
           className="aboutHero"
         />

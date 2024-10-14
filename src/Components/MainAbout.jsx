@@ -28,10 +28,10 @@ const MainAbout = () => {
             </div>
             <div className="col-md-4 right yy about-img yyy">
               <div className="imgg">
-                <img src="/src/assets/img/home/about-pic.jpg" alt="img" />
+                <img src="/img/home/about-pic.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/about-pic-2.jpg" alt="img" />
+                <img src="/img/home/about-pic-2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -60,10 +60,10 @@ const MainAbout = () => {
             </div>
             <div className="col-md-4 right about-img yyy y">
               <div className="imgg">
-                <img src="/src/assets/img/home/journey-pic.jpg" alt="img" />
+                <img src="/img/home/journey-pic.jpg" alt="img" />
               </div>
               <div className="imggg">
-                <img src="/src/assets/img/home/about-pic-2.jpg" alt="img" />
+                <img src="/img/home/about-pic-2.jpg" alt="img" />
               </div>
             </div>
           </div>

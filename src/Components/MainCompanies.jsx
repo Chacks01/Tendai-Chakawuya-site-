@@ -23,7 +23,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right ghja ">
-              <img src="/src/assets/img/home/GHJA logo.png" alt="img"></img>
+              <img src="/img/home/GHJA logo.png" alt="img"></img>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right">
-              <img src="../assets/img/home/DyTech.png" alt="img"></img>
+              <img src="/img/home/DyTech.png" alt="img"></img>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right">
-              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+              <img src="/img/home/DyTech.png" alt="img"></img>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right">
-              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+              <img src="/img/home/DyTech.png" alt="img"></img>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ const MainCompanies = () => {
               </div>
             </div>
             <div className="col-md-4 right">
-              <img src="/src/assets/img/home/DyTech.png" alt="img"></img>
+              <img src="/img/home/DyTech.png" alt="img"></img>
             </div>
           </div>
         </div>

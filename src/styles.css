@@ -129,7 +129,7 @@ h2 {
         rgba(0, 0, 0, 0.66) 16%,
         rgba(0, 0, 0, 0) 41%
       ),
-      url(../src/assets/img/home/banner\ 2.jpg);
+      url(/img/home/banner\ 2.jpg);
     background-position: 0 0, 60% 50%;
     background-size: auto, cover;
     background-clip: border-box;
@@ -263,7 +263,7 @@ h2 {
   }
 
   .container-1 {
-    background-image: url(./assets/img/home/noise.png);
+    background-image: url(/img/home/noise.png);
     background-size: cover;
     margin:6rem;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ h2 {
     height: 20rem;
   }
   .container-2 {
-    background-image: url(./assets/img/home/noise.png);
+    background-image: url(/img/home/noise.png);
     background-size: cover;
     margin:6rem;
     background-repeat: no-repeat;
@@ -307,7 +307,7 @@ h2 {
     cursor: pointer;
   }
   .container-1 {
-    background-image: url(./assets/img/home/noise.png);
+    background-image: url(/img/home/noise.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -410,7 +410,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../src/assets/img/home/banner\ 2.jpg);
+    background-image: url(/img/home/banner\ 2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
@@ -491,7 +491,7 @@ h2 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: url('./assets/img/home/mylivewallpapers-com-Dodge-Demon-170-4K\ \(1\).mp4');
+  background-image: url('/img/home/mylivewallpapers-com-Dodge-Demon-170-4K\ \(1\).mp4');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat; 

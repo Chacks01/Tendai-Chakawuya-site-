@@ -4,7 +4,7 @@ function MainActs() {
   return (
     <section id="video" className="companies">
       <video className="video-background" autoplay loop muted>
-        <source src="/src/assets/img/home/mylivewallpapers-com-Dodge-Demon-170-4K (1).mp4" type="video/mp4" />
+        <source src="/img/home/mylivewallpapers-com-Dodge-Demon-170-4K (1).mp4" type="video/mp4" />
       </video>
 
       <div className="text">

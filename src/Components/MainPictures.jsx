@@ -74,7 +74,7 @@ const MainPictures = () => {
         ].map((img, index) => (
           <img
             key={index}
-            src={`/src/assets/img/home/${img}`}
+            src={`/img/home/${img}`}
             alt=""
             draggable="false"
             className="image"

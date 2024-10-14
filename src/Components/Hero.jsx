@@ -51,7 +51,7 @@ function Hero() {
       </div>
       <div className="img-hero">
         <img
-          src="/Frontend/img/0d795ae1a97258f586ac131643e7297b-removebg-preview.png"
+          src="/img/0d795ae1a97258f586ac131643e7297b-removebg-preview.png"
           alt=""
         />
       </div>
