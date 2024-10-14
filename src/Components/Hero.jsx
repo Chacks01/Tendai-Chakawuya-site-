@@ -1,11 +1,11 @@
-import React from 'react';
+
 
 function Hero() {
   return (
     <section className="home" id="home">
       <div className="hero-info">
         <h3>Welcome To my World</h3>
-        <h1>Hi I'm Tendai</h1>
+        <h1>Hi I am Tendai</h1>
         <div className="text-animate">
           <h2>Software Engineer</h2>
         </div>

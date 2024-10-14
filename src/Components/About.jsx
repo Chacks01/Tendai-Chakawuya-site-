@@ -13,7 +13,7 @@ function About() {
       </div>
       <div className="about-content">
         <h2 className="heading">About Me</h2>
-        <h3>1 Year's Experience in web Development</h3>
+        <h3>1 Years Experience in web Development</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
           voluptatem autem ex in. Temporibus et maiores ipsum recusandae

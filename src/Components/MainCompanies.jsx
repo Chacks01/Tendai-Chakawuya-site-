@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const MainCompanies = () => {
   return (
@@ -13,11 +13,11 @@ const MainCompanies = () => {
               <div className="main-text">
                 <h2>Greater Heights</h2>
                 <span>
-                  I'm Tendai Chakawuya, a passionate entrepreneur, software
+                  I am Tendai Chakawuya, a passionate entrepreneur, software
                   developer, and business owner who believes in harnessing the
                   power of technology to drive positive change in the world.
                   With a passion for innovation and a drive to make a
-                  difference, I'm dedicated to creating solutions that impact
+                  difference, I am dedicated to creating solutions that impact
                   lives and shape the future.
                 </span>
               </div>
@@ -36,7 +36,7 @@ const MainCompanies = () => {
                 <h2>EduTech</h2>
                 <span>
                   My entrepreneurial journey began with a spark of inspiration
-                  from Iman Gadzhi, and since then, I've been driven to create a
+                  from Iman Gadzhi, and since then, I have been driven to create a
                   legacy. I set out on a challenge to build a series companies,
                   each one a stepping stone to greater success.
                 </span>
