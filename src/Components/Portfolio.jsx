@@ -34,7 +34,7 @@ function Portfolio() {
             </a>
           </div>
           <div className="portfolio-img">
-            <img src="/img/portfolio/1.jpg" alt="" />
+            <img src="/img/portfolio/1.jpg" alt="img" />
           </div>
         </div>
         {/* ... */}

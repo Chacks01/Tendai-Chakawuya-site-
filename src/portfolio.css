@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .bar{
-    background-image: url(./assets/img/home/noise.png);
+    background-image: url(/img/home/noise.png);
 }
 .firstpic{
-    background-image: url(./assets/img/home/DyTech.png);
+    background-image: url(/img/home/DyTech.png);
     /* background-repeat: no-repeat; */
     
     

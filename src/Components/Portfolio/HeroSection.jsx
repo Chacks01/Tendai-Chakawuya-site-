@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className=" overflow-hidden bar w-[96%] h-screen flex flex-col content-center justify-center bg-whit p-8 items-center ">
       <div>
         <img
-          src="/src/assets/img/portfolio/Ellipse 1.png"
+          src="/img/portfolio/Ellipse 1.png"
           alt="Tendai Chakawuya"
           className="h-[25rem]  "
         />
