@@ -55,7 +55,7 @@ const MainPictures = () => {
     <section
       id="track"
       data-percentage="0"
-      className="companies"
+      className="companies container"
       style={{ overflow: "hidden", whiteSpace: "nowrap", cursor: "grab" }}
       ref={scrollRef}
     >

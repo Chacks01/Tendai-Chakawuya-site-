@@ -11,7 +11,7 @@ const VerticalNav = () => {
     
     <div className=" overflow-hidden fixed top-0 right-0 h-screen p-4 w-[5%] bg-white  flex flex-col items-center justify-between z-50">
       <div className="">
-        <img className="h-15 " src="/src/assets/img/home/GHJA logo.png" alt="" />
+        <img className="h-[3rem]" src="/src/assets/img/home/Tendai Chakawuya logo1.png" alt="" />
       </div>
       {/* Hamburger Icon for Small Screens */}
       <div className="md:hidden flex items-center justify-center mt-4">

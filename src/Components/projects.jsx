@@ -18,7 +18,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section className="container" id="projects">
       {projects.map((project, index) => (
         <Project key={index} project={project} />
       ))}
