@@ -76,7 +76,7 @@ const MainCompanies = () => {
                 <h2>Infinity Customes</h2>
                 <span>
                   My entrepreneurial journey began with a spark of inspiration
-                  from Iman Gadzhi, and since then, I've been driven to create a
+                  from Iman Gadzhi, and since then, I have been driven to create a
                   legacy. I set out on a challenge to build a series companies,
                   each one a stepping stone to greater success.
                 </span>
@@ -96,7 +96,7 @@ const MainCompanies = () => {
                 <h2>Car Abusers Club</h2>
                 <span>
                   My entrepreneurial journey began with a spark of inspiration
-                  from Iman Gadzhi, and since then, I've been driven to create a
+                  from Iman Gadzhi, and since then, I have been driven to create a
                   legacy. I set out on a challenge to build a series companies,
                   each one a stepping stone to greater success.
                 </span>
