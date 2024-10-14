@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const HeroSection = () => {
   return (
@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Text Content */}
       <div className=" space-y-4 text-center">
         <h1 className="text-7xl font-bold text-gray-900">
-          I'm{" "}
+          I am{" "}
           <span className="text-white text-7xl font-bold text">
             Tendai Chakawuya
           </span>{" "}
