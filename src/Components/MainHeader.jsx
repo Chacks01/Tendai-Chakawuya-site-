@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const MainHeader = () => {
@@ -9,12 +8,11 @@ const MainHeader = () => {
           <a href="#about">ABOUT </a>
         </li>
         <li>
-          <Link to='/portfolio'>PORTFOLIO </Link>
+          <Link to="/portfolio">PORTFOLIO </Link>
         </li>
         <li>
           <a href="#">
-            
-            <span>TENDAI CHACKS </span>
+            <span className="">TENDAI CHACKS </span>
           </a>
         </li>
         <li>
@@ -24,9 +22,9 @@ const MainHeader = () => {
           <a href="#contact">CONTACT </a>
         </li>
       </ul>
-      
+
       <div className="main-text">
-      <h1>TENDAI CHACKS</h1>
+        <h1>TENDAI CHACKS</h1>
       </div>
     </nav>
   );
