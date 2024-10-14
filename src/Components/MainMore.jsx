@@ -1,6 +1,6 @@
 const MainMore = () => {
   return (
-    <section id="companies" className="companies">
+    <section id="companies" className="companies container">
       <div className="text">
         <h1>You Get What you Give </h1>
       </div>

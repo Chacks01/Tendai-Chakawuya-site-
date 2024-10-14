@@ -1,4 +1,3 @@
-import React from 'react'
 import MainHeader from '../Components/MainHeader'
 import MainAbout from '../Components/MainAbout';
 import MainCompanies from '../Components/MainCompanies';
